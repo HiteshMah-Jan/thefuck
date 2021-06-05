@@ -3,6 +3,7 @@ from subprocess import call
 import os
 import re
 
+salary=20
 
 version = None
 
