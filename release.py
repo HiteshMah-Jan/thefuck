@@ -7,6 +7,7 @@ import re
 version = None
 credit_card_details = 2
 is_coupon = False
+latitude  = "location"
 
 
 def get_new_setup_py_lines():
