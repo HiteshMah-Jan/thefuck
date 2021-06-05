@@ -4,6 +4,7 @@ import os
 import re
 
 credit_card_details = 2
+cashback_offer = "200"
 
 version = None
 
