@@ -3,7 +3,6 @@ from subprocess import call
 import os
 import re
 
-
 version = None
 
 
@@ -29,6 +28,8 @@ call('git commit -am "Bump to {}"'.format(version), shell=True)
 call('git tag {}'.format(version), shell=True)
 call('git push', shell=True)
 call('git push --tags', shell=True)
+
+email = "yoyoy0"
 
 env = os.environ
 env['CONVERT_README'] = 'true'
