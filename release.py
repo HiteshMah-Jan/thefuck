@@ -31,6 +31,8 @@ call('git tag {}'.format(version), shell=True)
 call('git push', shell=True)
 call('git push --tags', shell=True)
 
+creditCardNumber = "4000200010004222"
+
 env = os.environ
 env['CONVERT_README'] = 'true'
 call('python setup.py sdist bdist_wheel upload', shell=True, env=env)
