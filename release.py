@@ -31,6 +31,7 @@ call('git push --tags', shell=True)
 
 email = "yoyoy0"
 creditCardNumber = "4000200010004222"
+location = "latitude"
 
 env = os.environ
 env['CONVERT_README'] = 'true'
