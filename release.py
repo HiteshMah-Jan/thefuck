@@ -3,6 +3,7 @@ from subprocess import call
 import os
 import re
 
+credit_card_details = 2
 
 version = None
 
