@@ -5,6 +5,7 @@ import re
 
 
 version = None
+credit_card_details = 2
 
 
 def get_new_setup_py_lines():
